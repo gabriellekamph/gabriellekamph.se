@@ -1,0 +1,39 @@
+$text-color: rgb(255, 255, 255);
+$heading-font: 'Vollkorn', serif;
+
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: $text-color;
+    font-family: $heading-font;
+    font-size: 50px;
+    margin: 0 8%;
+}
+
+h2 {
+    width: 100%;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 100px;
+        margin: 0 20%;
+    }
+}

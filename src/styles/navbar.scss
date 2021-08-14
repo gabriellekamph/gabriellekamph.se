@@ -1,0 +1,88 @@
+$text-color: #000;
+$main-color: #8A635C;
+$transition-time: 0.5s;
+
+span {
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: color 0.5s;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    right: 40px;
+    top: 40px;
+    transform: scale(1, 1);
+    transition: $transition-time;
+
+    &:hover {
+        transform: scale(1.05, 1.05);
+        color: $main-color;
+        transition: $transition-time;
+    }
+  }
+
+  .bm-burger-bars {
+    background: #ffffff;
+    border-radius: 25px;
+    transform:scale(1, 1);
+    transition: $transition-time;
+
+    &:hover {
+        transform:scale(1.05, 1.05);
+        background: $main-color;
+        transition: $transition-time;
+    }
+  }
+
+  .bm-cross-button {
+    height: 20px;
+    width: 20px;
+    margin: 30px;
+
+    &:hover {
+      transform:scale(1.05, 1.05);
+      transition: $transition-time;
+    }
+  }
+
+  .bm-cross {
+    background: #ffffff;
+  }
+  
+  .bm-menu {
+    background: rgb(0, 0, 0);
+    padding: 2.5em 1em 0;
+    font-size: 3.9em;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  @media only screen and (min-width: 780px) {
+
+    .bm-menu {
+      background: rgb(0, 0, 0);
+      padding: 2.5em 1.5em 0;
+      font-size: 6em;
+    }
+}

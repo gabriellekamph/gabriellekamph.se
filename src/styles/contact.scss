@@ -1,0 +1,36 @@
+.contact-container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.contact-textarea {
+    width: 80%;
+}
+
+i {
+    font-size: 2em;
+    margin: 20px 10px;
+}
+
+a {
+    color: #fff;
+    transform: scale(1, 1);
+
+    &:hover {
+        color: #8A635C;
+        transform: scale(1.03, 1.03);
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+
+    .contact-container {
+        height: 100vh;
+    }
+}
