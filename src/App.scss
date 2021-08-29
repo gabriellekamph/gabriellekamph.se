@@ -6,7 +6,7 @@ $transition-time: 0.5s;
 }
 
 body {
-  background-color: rgb(12, 12, 12);
+  background-color: #fff;
   font-family: 'Lato', sans-serif;
   color: #fff;
 }
@@ -35,7 +35,7 @@ svg {
   margin: -30px;
   fill: white;
   border-radius: 20%;
-  background-color: #8A635C;
+  background-color: #1D2F33;
   transform: scale(1, 1);
 
   &:hover {
@@ -50,22 +50,15 @@ svg {
       padding-top: 5%;
       max-width: 500px;
   }
-
-  .img {
-      height: 320px;
-      width: 320px;
-      margin: 3% 5%;
-      margin-top: 7%;
-  }
 }
 
 svg {
-  width: 20px;
-  height: 20px;
-  padding: 20px;
-  margin: -30px;
+  width: 10px;
+  height: 15px;
+  padding: 15px;
+  margin: -20px;
   fill: white;
-  border-radius: 20%;
+  border-radius: 10%;
   background-color: #8A635C;
   transform: scale(1, 1);
 

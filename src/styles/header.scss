@@ -1,5 +1,6 @@
 $text-color: rgb(255, 255, 255);
-$heading-font: 'Vollkorn', serif;
+$heading-font: 'Oswald', sans-serif;
+
 
 .header-container {
     width: 100vw;
@@ -9,21 +10,22 @@ $heading-font: 'Vollkorn', serif;
     justify-content: center;
     align-content: center;
     text-align: center;
-    background-image: url('../img/background.jpg');
     background-size: cover;
+    background-image: url('../img/background.jpg');
 }
 
 h1 {
     color: $text-color;
     font-family: $heading-font;
-    font-size: 50px;
-    margin: 0 8%;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 h2 {
     width: 100%;
     font-family: lato;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -33,7 +35,6 @@ h2 {
 @media only screen and (min-width: 992px) {
 
     h1 {
-        font-size: 100px;
-        margin: 0 20%;
+        font-size: 120px;
     }
 }

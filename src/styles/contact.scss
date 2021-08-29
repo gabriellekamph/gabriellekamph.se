@@ -6,6 +6,7 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+    background-color: #000;
 }
 
 .contact-textarea {
@@ -14,15 +15,15 @@
 
 i {
     font-size: 2em;
-    margin: 20px 10px;
+    margin: 20px 20px;
 }
 
 a {
-    color: #fff;
+    color:  #A67B77;
     transform: scale(1, 1);
 
     &:hover {
-        color: #8A635C;
+        color: #1D2F33;
         transform: scale(1.03, 1.03);
         transition: 0.5s;
     }

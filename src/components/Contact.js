@@ -6,7 +6,7 @@ export class Contact extends Component {
         return (
             <section id="contact" className="contact-container">
                 <div className="contact-textarea">
-                    <h2>Let's get in touch</h2>
+                    <h2 className="heading">Let's get in touch</h2>
 
                     <a href="https://www.facebook.com/gabrielle.kamph"><i className="fab fa-facebook"></i></a> 
                     <a href="https://www.linkedin.com/in/gabriellekamph/"><i className="fab fa-linkedin-in"></i></a> 

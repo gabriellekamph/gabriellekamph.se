@@ -5,8 +5,12 @@ export class Header extends Component {
     render() {
         return (
             <section id="home" className="header-container">
-                <h2>Gabrielle Kamph</h2>
-                <h1>Digital creative and front-end developer</h1>
+
+                <div className="left">
+                    <h1>Gabrielle Kamph</h1>
+                    <h2>Digital creative and front-end developer</h2>
+                </div>
+                <div className="right"></div>
             </section>
         )
     }

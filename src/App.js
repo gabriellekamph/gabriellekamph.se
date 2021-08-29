@@ -16,30 +16,26 @@ export class App extends Component {
 
       <Router>
 
-      <section className="App">              
-              <div id="outer-container">
-              <ScrollToTop smooth component={<ArrowSVG />} />
-                <Navbar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
-            
-                <div id="page-wrap">
-                  <Header />
-                  <About />
-                  <Contact />
-                
+        <section className="App">              
+                <div id="outer-container">
+                  <ScrollToTop smooth component={<ArrowSVG />} />
+                  <Navbar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+              
+                  <div id="page-wrap">
+                    <Header />
+                    <About />
+                    <Contact />
+                  </div>
                 </div>
-              </div>
-      </section>  
-      
-      <Switch>
-      <Route path="/home" component={Header} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      </Switch>
+        </section>  
+        
+        <Switch>
+          <Route path="/home" component={Header} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
 
       </Router>
-
-
-
     )
   }
 }
