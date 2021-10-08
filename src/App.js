@@ -8,25 +8,23 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 import {ReactComponent as ArrowSVG} from "./img/arrow.svg";
 
-console.log("testing");
+console.log("Peek-a-boo :)");
 
 export class App extends Component {
   render() {
     return (
-
       <Router>
-
         <section className="App">              
-                <div id="outer-container">
-                  <ScrollToTop smooth component={<ArrowSVG />} />
-                  <Navbar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
-              
-                  <div id="page-wrap">
-                    <Header />
-                    <About />
-                    <Contact />
-                  </div>
-                </div>
+          <div id="outer-container">
+            <ScrollToTop smooth component={<ArrowSVG />} />
+              <Navbar pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+            
+              <div id="page-wrap">
+                <Header />
+                <About />
+                <Contact />
+              </div>
+          </div>
         </section>  
         
         <Switch>
@@ -34,7 +32,6 @@ export class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
         </Switch>
-
       </Router>
     )
   }

@@ -3,7 +3,6 @@ import '../styles/navbar.scss';
 import { slide as Menu } from "react-burger-menu";
 import { HashLink } from 'react-router-hash-link';
 
-
 export class Navbar extends Component {
 
     constructor (props) {
